@@ -1,0 +1,20 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "A project management system for team collaboration.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Daniel José Dantas Jacometo",
+  "license": "MIT"
+}
